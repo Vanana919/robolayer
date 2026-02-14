@@ -3,3 +3,4 @@ out/
 cache/
 broadcast/
 .env
+<!-- 2026-02-14 :: sdk: surface VerificationMode enum -->
