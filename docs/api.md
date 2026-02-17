@@ -224,3 +224,4 @@ The contract uses custom errors instead of revert strings.
 | `TaskExpired` | Past the task's `timeoutAt` |
 | `AlreadyRegistered` | Operator address already registered |
 | `NotAuthorized` | Caller lacks the required role |
+<!-- 2026-02-17 :: docs: clarify task lifecycle in README -->
