@@ -80,3 +80,4 @@ Rewards are escrowed in the contract at task submission time:
 ## Upgrade Path
 
 The current `Robodyne.sol` is non-upgradable for auditability. The v0.3 mainnet contract will sit behind an OpenZeppelin transparent proxy with a 48h timelock on the admin. The proxy address will be pinned at TGE and announced in `docs/tokenomics.md`.
+<!-- 2026-02-19 :: fix: SDK readme typo -->
