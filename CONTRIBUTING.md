@@ -63,3 +63,4 @@ For changes that affect protocol design, tokenomics, or public APIs, open an iss
 ## License
 
 By contributing you agree that your work will be licensed under the [MIT License](LICENSE).
+<!-- 2026-02-23 :: fix: revert message for zero stake -->
