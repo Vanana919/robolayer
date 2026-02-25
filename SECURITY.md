@@ -43,3 +43,4 @@ Bounty paid in $RDY or USDC.
 ## Hall of Fame
 
 Researchers who responsibly disclosed valid vulnerabilities will be listed here (with permission).
+<!-- 2026-02-25 :: chore: rotate Sepolia RPC env name -->
