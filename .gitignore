@@ -4,3 +4,4 @@ cache/
 broadcast/
 .env
 <!-- 2026-02-14 :: sdk: surface VerificationMode enum -->
+<!-- 2026-02-26 :: ci: add forge test step -->
