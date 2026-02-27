@@ -10,3 +10,4 @@ lib/
 # Env
 .env
 .env.local
+<!-- 2026-02-27 :: feat: add IRobodyne typing for events -->
