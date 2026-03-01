@@ -1,0 +1,21 @@
+[package]
+name = "robolayer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "RoboLayer - Execution Layer for Robotics and AI Operators on Solana"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "robolayer"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { workspace = true }
+anchor-spl = { workspace = true }

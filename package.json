@@ -1,0 +1,24 @@
+{
+  "name": "robolayer",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "deploy:devnet": "./scripts/deploy.sh --network devnet",
+    "deploy:mainnet": "./scripts/deploy.sh --network mainnet-beta"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.91.0",
+    "@solana/spl-token": "^0.4.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.4.1",
+    "mocha": "^10.3.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.3.3"
+  }
+}
