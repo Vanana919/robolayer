@@ -35,3 +35,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Protocol, Operator, and Task account structs
 - TypeScript SDK skeleton
 - Documentation and architecture overview
+<!-- 2026-03-02 :: chore: bump openzeppelin patch -->
