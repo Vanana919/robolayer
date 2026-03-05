@@ -77,3 +77,4 @@ Token holders can vote on:
 
 Governance uses a Snapshot off-chain signal followed by on-chain execution via a Gnosis Safe + OpenZeppelin Timelock. A 3-day minimum lock applies to all parameter changes.
 <!-- 2026-02-20 :: perf: short-circuit zero-result paths -->
+<!-- 2026-03-05 :: fix: math overflow guard in SlashingLib -->
