@@ -64,3 +64,4 @@ For changes that affect protocol design, tokenomics, or public APIs, open an iss
 
 By contributing you agree that your work will be licensed under the [MIT License](LICENSE).
 <!-- 2026-02-23 :: fix: revert message for zero stake -->
+<!-- 2026-03-09 :: chore: bump TypeScript -->
