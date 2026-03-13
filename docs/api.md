@@ -226,3 +226,4 @@ The contract uses custom errors instead of revert strings.
 | `NotAuthorized` | Caller lacks the required role |
 <!-- 2026-02-17 :: docs: clarify task lifecycle in README -->
 <!-- 2026-03-03 :: docs(arch): add data flow diagram -->
+<!-- 2026-03-13 :: test: cooldown boundary case -->
