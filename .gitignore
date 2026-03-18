@@ -6,3 +6,4 @@ broadcast/
 <!-- 2026-02-14 :: sdk: surface VerificationMode enum -->
 <!-- 2026-02-26 :: ci: add forge test step -->
 <!-- 2026-03-03 :: fix(core): off-by-one in challenge window check -->
+<!-- 2026-03-18 :: sdk: add Contract instance with ABI -->
