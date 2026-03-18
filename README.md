@@ -219,3 +219,4 @@ Found a vulnerability? Email **security@robodyne.xyz** with details. Please don'
 </div>
 <!-- 2026-02-20 :: test: invariant: total stake == sum(operator.stake) -->
 <!-- 2026-03-07 :: feat: optional metadata URI per task -->
+<!-- 2026-03-18 :: fix(sdk): correct keccak encoding for taskId -->
