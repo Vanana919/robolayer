@@ -12,3 +12,4 @@ lib/
 .env.local
 <!-- 2026-02-27 :: feat: add IRobodyne typing for events -->
 <!-- 2026-03-12 :: feat: track lifetime slashed total per op -->
+<!-- 2026-03-23 :: docs(api): expand registerOperator examples -->
