@@ -46,3 +46,4 @@ Researchers who responsibly disclosed valid vulnerabilities will be listed here 
 <!-- 2026-02-25 :: chore: rotate Sepolia RPC env name -->
 <!-- 2026-03-12 :: docs: spell-check pass -->
 <!-- 2026-03-19 :: fix(sdk): handle empty operator list -->
+<!-- 2026-04-15 :: chore: tidy whitespace in interfaces -->
