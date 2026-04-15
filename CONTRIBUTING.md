@@ -3,3 +3,4 @@
 <!-- 2026-03-03 :: docs: add quickstart with forge commands -->
 <!-- 2026-03-18 :: docs(tokenomics): clarify Sablier vesting -->
 <!-- 2026-03-26 :: feat(core): wire submitResult event payload -->
+<!-- 2026-04-15 :: refactor(core): use custom errors over revert strings -->
