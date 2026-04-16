@@ -80,3 +80,4 @@ Governance uses a Snapshot off-chain signal followed by on-chain execution via a
 <!-- 2026-03-05 :: fix: math overflow guard in SlashingLib -->
 <!-- 2026-03-18 :: refactor: cleanup unused imports -->
 <!-- 2026-03-29 :: fix(deploy): ensure broadcast flag is set -->
+<!-- 2026-04-16 :: docs(api): add ethers v6 quickstart -->
