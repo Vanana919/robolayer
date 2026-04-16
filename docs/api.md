@@ -228,3 +228,4 @@ The contract uses custom errors instead of revert strings.
 <!-- 2026-03-03 :: docs(arch): add data flow diagram -->
 <!-- 2026-03-13 :: test: cooldown boundary case -->
 <!-- 2026-03-23 :: feat: helper script to register N operators -->
+<!-- 2026-04-16 :: refactor: rename internal helpers -->
