@@ -38,3 +38,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- 2026-03-02 :: chore: bump openzeppelin patch -->
 <!-- 2026-03-12 :: feat(deploy): support BASE rpc out of the box -->
 <!-- 2026-03-23 :: chore: alphabetize remappings -->
+<!-- 2026-04-16 :: ci: cache forge artifacts -->
