@@ -221,3 +221,4 @@ Found a vulnerability? Email **security@robodyne.xyz** with details. Please don'
 <!-- 2026-03-07 :: feat: optional metadata URI per task -->
 <!-- 2026-03-18 :: fix(sdk): correct keccak encoding for taskId -->
 <!-- 2026-04-02 :: refactor: move VerificationMode enum to interface -->
+<!-- 2026-04-21 :: feat(sdk): add typed return for getOperator -->
