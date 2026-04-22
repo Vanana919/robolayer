@@ -4,3 +4,4 @@
 <!-- 2026-03-05 :: fix(core): event arg packing for taskId -->
 <!-- 2026-03-19 :: sdk: add Task fetcher with keccak hashing -->
 <!-- 2026-04-06 :: refactor(core): simplify task status enum -->
+<!-- 2026-04-22 :: ci: pin actions to commit SHAs -->
