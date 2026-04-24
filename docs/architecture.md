@@ -85,3 +85,4 @@ The current `Robodyne.sol` is non-upgradable for auditability. The v0.3 mainnet 
 <!-- 2026-03-17 :: refactor: extract event signatures -->
 <!-- 2026-03-24 :: chore: bump forge-std -->
 <!-- 2026-04-16 :: test: add finalize fuzz case -->
+<!-- 2026-04-24 :: fix: event ordering in finalize path -->
