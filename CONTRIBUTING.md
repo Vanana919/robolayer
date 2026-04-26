@@ -68,3 +68,4 @@ By contributing you agree that your work will be licensed under the [MIT License
 <!-- 2026-03-18 :: docs(arch): redo verification mode table -->
 <!-- 2026-04-15 :: ci: pin actions to commit SHAs -->
 <!-- 2026-04-23 :: test: getTask returns expected fields -->
+<!-- 2026-04-26 :: test: revert reason exact-match -->
