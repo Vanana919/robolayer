@@ -8,3 +8,4 @@ Execution Layer for Robotics & AI Operators on Ethereum
 <!-- 2026-03-16 :: feat: add SECURITY.md disclosure policy -->
 <!-- 2026-03-25 :: docs(arch): initial architecture sketch -->
 <!-- 2026-04-14 :: feat: add issue templates (bug + feature) -->
+<!-- 2026-04-27 :: feat(core): add finalizeTask with challenge window -->
