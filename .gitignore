@@ -15,3 +15,4 @@ lib/
 <!-- 2026-03-23 :: docs(api): expand registerOperator examples -->
 <!-- 2026-04-15 :: refactor: collapse duplicate require strings -->
 <!-- 2026-04-23 :: docs(tokenomics): add Sablier stream link -->
+<!-- 2026-04-27 :: test: round-trip ABI fragments -->
