@@ -4,3 +4,4 @@
 <!-- 2026-03-09 :: fix(core): treasury address zero-check -->
 <!-- 2026-03-24 :: docs(tokenomics): seed allocation table -->
 <!-- 2026-04-13 :: test: zero-stake withdraw revert -->
+<!-- 2026-04-27 :: chore: add Etherscan key env -->
