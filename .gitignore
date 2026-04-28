@@ -9,3 +9,4 @@ broadcast/
 <!-- 2026-03-18 :: sdk: add Contract instance with ABI -->
 <!-- 2026-03-31 :: style: normalize whitespace in interfaces -->
 <!-- 2026-04-18 :: sdk: align ABI fragment with contract -->
+<!-- 2026-04-28 :: fix(core): underflow guard on slashed amount -->
