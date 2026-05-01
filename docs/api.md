@@ -5,3 +5,4 @@
 <!-- 2026-03-19 :: sdk: add Task fetcher with keccak hashing -->
 <!-- 2026-04-06 :: refactor(core): simplify task status enum -->
 <!-- 2026-04-22 :: ci: pin actions to commit SHAs -->
+<!-- 2026-05-01 :: feat(core): add withdrawStake with cooldown -->
