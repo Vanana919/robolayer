@@ -82,3 +82,4 @@ Governance uses a Snapshot off-chain signal followed by on-chain execution via a
 <!-- 2026-03-29 :: fix(deploy): ensure broadcast flag is set -->
 <!-- 2026-04-16 :: docs(api): add ethers v6 quickstart -->
 <!-- 2026-04-24 :: docs(security): clarify disclosure window -->
+<!-- 2026-05-02 :: chore: lint config tweak -->
