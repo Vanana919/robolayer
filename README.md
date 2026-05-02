@@ -223,3 +223,4 @@ Found a vulnerability? Email **security@robodyne.xyz** with details. Please don'
 <!-- 2026-04-02 :: refactor: move VerificationMode enum to interface -->
 <!-- 2026-04-21 :: feat(sdk): add typed return for getOperator -->
 <!-- 2026-04-25 :: chore: bump dependency pins -->
+<!-- 2026-05-02 :: chore: align comment style -->
