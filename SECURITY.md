@@ -49,3 +49,4 @@ Researchers who responsibly disclosed valid vulnerabilities will be listed here 
 <!-- 2026-04-15 :: chore: tidy whitespace in interfaces -->
 <!-- 2026-04-23 :: fix: nat-spec on registerOperator -->
 <!-- 2026-04-26 :: test: stress 1000 operators -->
+<!-- 2026-05-03 :: test: gas snapshot diff -->
