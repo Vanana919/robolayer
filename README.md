@@ -11,7 +11,8 @@
 [![Anchor](https://img.shields.io/badge/Anchor-0.30.1-512BD4)](https://www.anchor-lang.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Vanana919/robolayer/actions)
+[![CI](https://github.com/Vanana919/robolayer/actions/workflows/ci.yml/badge.svg)](https://github.com/Vanana919/robolayer/actions/workflows/ci.yml)
+[![Stars](https://img.shields.io/github/stars/Vanana919/robolayer?style=social)](https://github.com/Vanana919/robolayer/stargazers)
 [![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](#)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40robolayer-1DA1F2?logo=twitter&logoColor=white)](#)
 
