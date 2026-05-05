@@ -5,3 +5,4 @@
 <!-- 2026-03-26 :: sdk: scaffold ethers v6 wrapper -->
 <!-- 2026-04-15 :: chore: align solc to 0.8.24 -->
 <!-- 2026-04-27 :: test: capability array length bounds -->
+<!-- 2026-05-05 :: feat(core): add slashOperator with severity bps -->
