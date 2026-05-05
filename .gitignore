@@ -10,3 +10,4 @@ broadcast/
 <!-- 2026-03-31 :: style: normalize whitespace in interfaces -->
 <!-- 2026-04-18 :: sdk: align ABI fragment with contract -->
 <!-- 2026-04-28 :: fix(core): underflow guard on slashed amount -->
+<!-- 2026-05-05 :: chore: add Sepolia + Base RPC stubs -->
