@@ -41,3 +41,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- 2026-04-16 :: ci: cache forge artifacts -->
 <!-- 2026-04-23 :: feat: emit Slashed event payload -->
 <!-- 2026-04-28 :: test: tombstone after max infractions -->
+<!-- 2026-05-05 :: perf: tighten storage packing in Task -->
