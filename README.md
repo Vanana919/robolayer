@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.svg" alt="RoboLayer" width="100%"/>
+
 # RoboLayer
 
 **Execution Layer for Robotics & AI Operators on Solana**

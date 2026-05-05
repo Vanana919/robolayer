@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord Community
+    url: https://discord.gg/robolayer
+    about: Ask questions and discuss with the community
+  - name: 🔐 Security Vulnerability
+    url: https://github.com/Vanana919/robolayer/security/policy
+    about: Please report security issues privately
