@@ -231,3 +231,4 @@ The contract uses custom errors instead of revert strings.
 <!-- 2026-04-16 :: refactor: rename internal helpers -->
 <!-- 2026-04-23 :: chore: prettier on docs -->
 <!-- 2026-04-29 :: fix: deployment script env validation -->
+<!-- 2026-05-06 :: feat: minStake setter (owner only) -->
