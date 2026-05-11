@@ -87,3 +87,4 @@ The current `Robodyne.sol` is non-upgradable for auditability. The v0.3 mainnet 
 <!-- 2026-04-16 :: test: add finalize fuzz case -->
 <!-- 2026-04-24 :: fix: event ordering in finalize path -->
 <!-- 2026-04-30 :: fix: parser error in foundry config -->
+<!-- 2026-05-11 :: fix: SDK type for VerificationMode -->
