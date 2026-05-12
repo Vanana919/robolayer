@@ -11,14 +11,31 @@
 [![Anchor](https://img.shields.io/badge/Anchor-0.30.1-512BD4)](https://www.anchor-lang.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![CI](https://github.com/Vanana919/robolayer/actions/workflows/ci.yml/badge.svg)](https://github.com/Vanana919/robolayer/actions/workflows/ci.yml)
-[![Stars](https://img.shields.io/github/stars/Vanana919/robolayer?style=social)](https://github.com/Vanana919/robolayer/stargazers)
+[![CI](https://github.com/robolayertech/robolayer/actions/workflows/ci.yml/badge.svg)](https://github.com/robolayertech/robolayer/actions/workflows/ci.yml)
+[![Stars](https://img.shields.io/github/stars/robolayertech/robolayer?style=social)](https://github.com/robolayertech/robolayer/stargazers)
 [![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](#)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40robolayer-1DA1F2?logo=twitter&logoColor=white)](#)
 
-[Website](https://robolayer.vercel.app) · [Docs](docs/architecture.md) · [SDK](sdk/) · [Tokenomics](docs/tokenomics.md)
+[Website](https://robolayer.tech) · [Docs](docs/architecture.md) · [SDK](sdk/) · [Tokenomics](docs/tokenomics.md)
 
 </div>
+
+---
+
+## $ROBO — Token
+
+> **Live on Solana mainnet.** Fair launch on pump.fun. No presale, no team allocation, no advisor unlocks.
+
+| | |
+|---|---|
+| **Contract** | `Fs4w6EgrxxSLQpbrmxVhaxhpw7WNw63MqU3rvvzMpump` |
+| **Network** | Solana (SPL) |
+| **Pump.fun** | [pump.fun/coin/Fs4w…pump](https://pump.fun/coin/Fs4w6EgrxxSLQpbrmxVhaxhpw7WNw63MqU3rvvzMpump) |
+| **DexScreener** | [dexscreener.com/solana/Fs4w…pump](https://dexscreener.com/solana/Fs4w6EgrxxSLQpbrmxVhaxhpw7WNw63MqU3rvvzMpump) |
+| **Birdeye** | [birdeye.so/token/Fs4w…pump](https://birdeye.so/token/Fs4w6EgrxxSLQpbrmxVhaxhpw7WNw63MqU3rvvzMpump?chain=solana) |
+| **35M Locked** | [Streamflow vesting](https://app.streamflow.finance/contract/solana/mainnet/DMQR23ogp5sGbzHmsPQvrDvezPjyJG8ZkCEfbiAxcE4b) — team supply, on-chain proof |
+
+**Why locked?** Execution layers need operators with skin in the game, not exit liquidity. Team supply vests on-chain via Streamflow — anyone can audit the schedule. See [`docs/tokenomics.md`](docs/tokenomics.md) for the full allocation breakdown.
 
 ---
 
@@ -42,7 +59,7 @@
 
 - ⚡ **Sub-second task assignment** — leverages Solana's 400ms block times
 - 🔒 **Economic security** — operators stake $ROBO, slashed on faults
-- 🧪 **Verifiable execution** — optimistic + ZK proofs + N-of-M consensus
+- 🧪 **Verifiable execution** — optimistic dispute window + N-of-M consensus (ZK proofs on roadmap)
 - 💸 **Fair reward distribution** — speed bonuses, reputation multipliers
 - 🛠 **Developer-first SDK** — TypeScript client, full type safety
 
@@ -93,10 +110,12 @@ RoboLayer is composed of four core on-chain components:
 |-----------|---------|
 | **Operator Registry** | Lifecycle, staking, reputation, slashing |
 | **Task Engine** | Submission → Assignment → Execution → Verification → Settlement |
-| **Verification Layer** | Optimistic dispute window, ZK proofs, multi-op consensus |
+| **Verification Layer** | Optimistic dispute window + N-of-M consensus (ZK proofs scaffolded, WIP) |
 | **Reward Distribution** | Base reward + speed bonus + reputation multiplier |
 
 Full architecture: [docs/architecture.md](docs/architecture.md)
+
+> **Verification status:** ZK proof verification is a **roadmap item** (Q3 2026). Code is scaffolded behind the `zk` cargo feature flag and currently no-ops. Use Optimistic or N-of-M verification for production.
 
 ### Program accounts
 
@@ -129,7 +148,7 @@ Full tokenomics: [docs/tokenomics.md](docs/tokenomics.md)
 ```bash
 # Prereqs: Rust 1.75+, Solana CLI 1.18+, Anchor 0.30.1, Node 20+
 
-git clone https://github.com/Vanana919/robolayer.git
+git clone https://github.com/robolayertech/robolayer.git
 cd robolayer
 
 # Build the on-chain program
@@ -146,8 +165,10 @@ yarn deploy:devnet
 
 | Network | Program ID |
 |---------|-----------|
-| Devnet | `RBLYr7mRXT4oFqJzKw8PqWnLkGpMR5C3aY6hN9qFau2` |
-| Mainnet | `RBLYr7mRXT4oFqJzKw8PqWnLkGpMR5C3aY6hN9qFau2` |
+| Devnet | `RBLYdev2x9NkPuMtJhAcEsW6qFp4RyLmCbGoZ3iVrK8U` |
+| Mainnet | `RBLYm4inxYZ2KvHfQ3qGwT8B7nKr5ePoVtL9aXjsBd1Y` |
+
+> Mainnet program is deployed but unverified — auditing in progress. Use devnet for integration testing.
 
 ## Roadmap
 

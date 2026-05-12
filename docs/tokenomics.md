@@ -1,5 +1,17 @@
 # $ROBO Tokenomics
 
+## Live
+
+> **$ROBO is live on Solana mainnet.** Fair launch via pump.fun, no presale, no team allocation, no advisor unlocks. 35M of team supply locked on-chain via Streamflow vesting.
+
+| | |
+|---|---|
+| **Contract** | `Fs4w6EgrxxSLQpbrmxVhaxhpw7WNw63MqU3rvvzMpump` |
+| **Pump.fun** | [pump.fun/coin/Fs4w…pump](https://pump.fun/coin/Fs4w6EgrxxSLQpbrmxVhaxhpw7WNw63MqU3rvvzMpump) |
+| **DexScreener** | [dexscreener.com/solana/Fs4w…pump](https://dexscreener.com/solana/Fs4w6EgrxxSLQpbrmxVhaxhpw7WNw63MqU3rvvzMpump) |
+| **Birdeye** | [birdeye.so/token/Fs4w…pump](https://birdeye.so/token/Fs4w6EgrxxSLQpbrmxVhaxhpw7WNw63MqU3rvvzMpump?chain=solana) |
+| **Vesting (35M)** | [Streamflow contract](https://app.streamflow.finance/contract/solana/mainnet/DMQR23ogp5sGbzHmsPQvrDvezPjyJG8ZkCEfbiAxcE4b) |
+
 ## Token Overview
 
 | Parameter | Value |
@@ -8,7 +20,7 @@
 | **Symbol** | $ROBO |
 | **Network** | Solana (SPL Token) |
 | **Total Supply** | 1,000,000,000 |
-| **Decimals** | 9 |
+| **Decimals** | 6 |
 
 ## Allocation
 

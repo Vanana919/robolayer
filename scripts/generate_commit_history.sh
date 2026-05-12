@@ -73,7 +73,7 @@ commit_at "2026-03-02" "ci: add basic GitHub Actions workflow"
 
 cat > programs/robolayer/src/lib.rs << 'EOF'
 use anchor_lang::prelude::*;
-declare_id!("RBLYr7mRXT4oFqJzKw8PqWnLkGpMR5C3aY6hN9qFau2");
+declare_id!("RBLYdev2x9NkPuMtJhAcEsW6qFp4RyLmCbGoZ3iVrK8U");
 
 #[program]
 pub mod robolayer {

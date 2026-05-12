@@ -30,10 +30,10 @@ Submission -> Assignment -> Execution -> Verification -> Settlement
 
 ### 3. Verification Layer
 
-Tasks are verified through a combination of:
-- **Optimistic verification**: Results accepted unless challenged within dispute window
-- **ZK proofs**: For computation-intensive tasks, operators submit ZK proofs of correct execution
-- **Multi-operator consensus**: Critical tasks require N-of-M operator agreement
+Tasks are verified through one of the following modes:
+- **Optimistic verification** *(shipped)*: Results accepted unless challenged within a configurable dispute window
+- **Multi-operator consensus** *(shipped)*: Critical tasks require N-of-M operator agreement
+- **ZK proofs** *(roadmap, Q3 2026)*: Scaffolded behind the `zk` cargo feature flag; the verifier currently no-ops and must not be relied on in production. Tracking issue in the roadmap.
 
 ### 4. Reward Distribution
 
@@ -53,13 +53,13 @@ Rewards are distributed from the protocol's reward pool:
                               |               |               |
                        [Assignment]    [Verification]   [Settlement]
                               |               |               |
-                       [Operators]      [ZK Proofs]    [Token Transfer]
+                       [Operators]   [Optimistic/N-of-M] [Token Transfer]
 ```
 
 ## Security Model
 
 1. **Economic Security**: Operators risk slashing of staked tokens
-2. **Cryptographic Security**: ZK proofs for verifiable computation
+2. **Cryptographic Security**: ZK proofs for verifiable computation *(roadmap — see Verification Layer above)*
 3. **Social Security**: Governance can pause/upgrade protocol parameters
 4. **Redundancy**: Critical tasks assigned to multiple operators
 

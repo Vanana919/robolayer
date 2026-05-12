@@ -2,6 +2,15 @@
   "name": "robolayer",
   "version": "0.2.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robolayertech/robolayer"
+  },
+  "homepage": "https://robolayer.vercel.app",
+  "bugs": {
+    "url": "https://github.com/robolayertech/robolayer/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "anchor build",
     "test": "anchor test",

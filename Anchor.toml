@@ -3,10 +3,13 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-robolayer = "RBLYr7mRXT4oFqJzKw8PqWnLkGpMR5C3aY6hN9qFau2"
+robolayer = "RBLYdev2x9NkPuMtJhAcEsW6qFp4RyLmCbGoZ3iVrK8U"
 
 [programs.devnet]
-robolayer = "RBLYr7mRXT4oFqJzKw8PqWnLkGpMR5C3aY6hN9qFau2"
+robolayer = "RBLYdev2x9NkPuMtJhAcEsW6qFp4RyLmCbGoZ3iVrK8U"
+
+[programs.mainnet]
+robolayer = "RBLYm4inxYZ2KvHfQ3qGwT8B7nKr5ePoVtL9aXjsBd1Y"
 
 [registry]
 url = "https://api.apr.dev"

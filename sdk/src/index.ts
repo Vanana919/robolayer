@@ -8,9 +8,17 @@ import {
 } from "@solana/web3.js";
 import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
 
-export const ROBOLAYER_PROGRAM_ID = new PublicKey(
-  "RBLYr7mRXT4oFqJzKw8PqWnLkGpMR5C3aY6hN9qFau2"
-);
+/**
+ * Program IDs per cluster. Defaults to devnet for safety.
+ * Override via {@link RoboLayerConfig.programId} when targeting mainnet.
+ */
+export const PROGRAM_IDS = {
+  "mainnet-beta": new PublicKey("RBLYm4inxYZ2KvHfQ3qGwT8B7nKr5ePoVtL9aXjsBd1Y"),
+  devnet: new PublicKey("RBLYdev2x9NkPuMtJhAcEsW6qFp4RyLmCbGoZ3iVrK8U"),
+  localnet: new PublicKey("RBLYdev2x9NkPuMtJhAcEsW6qFp4RyLmCbGoZ3iVrK8U"),
+} as const;
+
+export const ROBOLAYER_PROGRAM_ID = PROGRAM_IDS.devnet;
 
 export interface RoboLayerConfig {
   cluster: "mainnet-beta" | "devnet" | "localnet";
@@ -78,7 +86,8 @@ export class RoboLayer {
     this.provider = new AnchorProvider(this.connection, config.wallet, {
       commitment: config.commitment || "confirmed",
     });
-    this.programId = config.programId || ROBOLAYER_PROGRAM_ID;
+    this.programId =
+      config.programId || PROGRAM_IDS[config.cluster] || ROBOLAYER_PROGRAM_ID;
   }
 
   private getEndpoint(cluster: string): string {
