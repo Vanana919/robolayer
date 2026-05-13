@@ -1,0 +1,25 @@
+{
+  "name": "robodyne",
+  "version": "0.2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robolayertech/robodyne"
+  },
+  "homepage": "https://robodyne.xyz",
+  "bugs": {
+    "url": "https://github.com/robolayertech/robodyne/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test -vv",
+    "fmt": "forge fmt",
+    "snapshot": "forge snapshot",
+    "deploy:sepolia": "./scripts/deploy.sh --network sepolia",
+    "deploy:mainnet": "./scripts/deploy.sh --network mainnet"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

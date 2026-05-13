@@ -1,8 +1,45 @@
-<!-- 2026-02-14 :: chore: enable via_ir optimization -->
-<!-- 2026-02-26 :: ci: add foundry-toolchain setup -->
-<!-- 2026-03-03 :: test: add operator registration happy path -->
-<!-- 2026-03-18 :: test: edge case at min stake -->
-<!-- 2026-03-26 :: sdk: scaffold ethers v6 wrapper -->
-<!-- 2026-04-15 :: chore: align solc to 0.8.24 -->
-<!-- 2026-04-27 :: test: capability array length bounds -->
-<!-- 2026-05-05 :: feat(core): add slashOperator with severity bps -->
+# Security Policy
+
+## Reporting a Vulnerability
+
+The Robodyne team takes security seriously. If you discover a vulnerability, please report it responsibly:
+
+**security@robodyne.xyz**
+
+Include:
+- Description of the issue
+- Steps to reproduce
+- Potential impact
+- Suggested fix (if any)
+
+**Please do not open public GitHub issues for security vulnerabilities.**
+
+## Response Timeline
+
+- **Acknowledgement**: within 48 hours
+- **Initial assessment**: within 5 business days
+- **Fix and disclosure**: depends on severity, typically 14–90 days
+
+## Bug Bounty
+
+For critical findings affecting funds at risk on mainnet, Robodyne offers a bounty program. Severity tiers:
+
+| Severity | Reward (USD) |
+|---------|--------------|
+| Critical (funds drainable) | up to $50,000 |
+| High (significant impact) | up to $10,000 |
+| Medium (limited impact) | up to $2,500 |
+| Low (best practices) | up to $500 |
+
+Bounty paid in $RDY or USDC.
+
+## Supported Versions
+
+| Version | Supported |
+|--------|-----------|
+| 0.2.x | yes |
+| 0.1.x | no |
+
+## Hall of Fame
+
+Researchers who responsibly disclosed valid vulnerabilities will be listed here (with permission).

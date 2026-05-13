@@ -1,0 +1,40 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9945FF"/>
+      <stop offset="100%" stop-color="#14F195"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="256" height="256" rx="48" fill="#0B0B14"/>
+
+  <!-- Hex frame -->
+  <polygon points="128,28 220,80 220,176 128,228 36,176 36,80"
+           fill="none" stroke="url(#gradLogo)" stroke-width="4" filter="url(#glow)"/>
+
+  <!-- Inner robot eyes / chip -->
+  <g transform="translate(128 128)" filter="url(#glow)">
+    <rect x="-44" y="-32" width="88" height="64" rx="10" fill="none"
+          stroke="url(#gradLogo)" stroke-width="3"/>
+    <circle cx="-20" cy="0" r="8" fill="#14F195"/>
+    <circle cx="20" cy="0" r="8" fill="#9945FF"/>
+
+    <!-- Antennas -->
+    <line x1="-22" y1="-32" x2="-22" y2="-52" stroke="url(#gradLogo)" stroke-width="3"/>
+    <line x1="22" y1="-32" x2="22" y2="-52" stroke="url(#gradLogo)" stroke-width="3"/>
+    <circle cx="-22" cy="-56" r="4" fill="#14F195"/>
+    <circle cx="22" cy="-56" r="4" fill="#9945FF"/>
+
+    <!-- Bottom pins -->
+    <line x1="-30" y1="32" x2="-30" y2="44" stroke="url(#gradLogo)" stroke-width="3"/>
+    <line x1="0" y1="32" x2="0" y2="44" stroke="url(#gradLogo)" stroke-width="3"/>
+    <line x1="30" y1="32" x2="30" y2="44" stroke="url(#gradLogo)" stroke-width="3"/>
+  </g>
+</svg>

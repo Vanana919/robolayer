@@ -1,0 +1,190 @@
+[
+  {
+    "type": "function",
+    "name": "registerOperator",
+    "stateMutability": "payable",
+    "inputs": [
+      { "name": "name", "type": "string" },
+      { "name": "capabilities", "type": "string[]" }
+    ],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "withdrawStake",
+    "stateMutability": "nonpayable",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "submitTask",
+    "stateMutability": "payable",
+    "inputs": [
+      { "name": "payloadHash", "type": "bytes32" },
+      { "name": "timeoutSec", "type": "uint64" },
+      { "name": "mode", "type": "uint8" }
+    ],
+    "outputs": [{ "name": "taskId", "type": "bytes32" }]
+  },
+  {
+    "type": "function",
+    "name": "claimTask",
+    "stateMutability": "nonpayable",
+    "inputs": [{ "name": "taskId", "type": "bytes32" }],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "submitResult",
+    "stateMutability": "nonpayable",
+    "inputs": [
+      { "name": "taskId", "type": "bytes32" },
+      { "name": "resultHash", "type": "bytes32" },
+      { "name": "proof", "type": "bytes" }
+    ],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "finalizeTask",
+    "stateMutability": "nonpayable",
+    "inputs": [{ "name": "taskId", "type": "bytes32" }],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "slashOperator",
+    "stateMutability": "nonpayable",
+    "inputs": [
+      { "name": "operator", "type": "address" },
+      { "name": "amount", "type": "uint256" },
+      { "name": "reason", "type": "string" }
+    ],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "getOperator",
+    "stateMutability": "view",
+    "inputs": [{ "name": "authority", "type": "address" }],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "components": [
+          { "name": "authority", "type": "address" },
+          { "name": "name", "type": "string" },
+          { "name": "stake", "type": "uint256" },
+          { "name": "reputation", "type": "uint256" },
+          { "name": "tasksCompleted", "type": "uint256" },
+          { "name": "registeredAt", "type": "uint64" },
+          { "name": "active", "type": "bool" },
+          { "name": "capabilities", "type": "string[]" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "getTask",
+    "stateMutability": "view",
+    "inputs": [{ "name": "taskId", "type": "bytes32" }],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "components": [
+          { "name": "submitter", "type": "address" },
+          { "name": "assignedTo", "type": "address" },
+          { "name": "payloadHash", "type": "bytes32" },
+          { "name": "resultHash", "type": "bytes32" },
+          { "name": "reward", "type": "uint256" },
+          { "name": "timeoutAt", "type": "uint64" },
+          { "name": "createdAt", "type": "uint64" },
+          { "name": "mode", "type": "uint8" },
+          { "name": "status", "type": "uint8" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "operatorCount",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "uint256" }]
+  },
+  {
+    "type": "function",
+    "name": "taskCount",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "uint256" }]
+  },
+  {
+    "type": "function",
+    "name": "totalStaked",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [{ "name": "", "type": "uint256" }]
+  },
+  {
+    "type": "event",
+    "name": "OperatorRegistered",
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "operator", "type": "address" },
+      { "indexed": false, "name": "name", "type": "string" },
+      { "indexed": false, "name": "stake", "type": "uint256" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "TaskSubmitted",
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "taskId", "type": "bytes32" },
+      { "indexed": true, "name": "submitter", "type": "address" },
+      { "indexed": false, "name": "reward", "type": "uint256" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "TaskClaimed",
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "taskId", "type": "bytes32" },
+      { "indexed": true, "name": "operator", "type": "address" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "ResultSubmitted",
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "taskId", "type": "bytes32" },
+      { "indexed": false, "name": "resultHash", "type": "bytes32" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "TaskFinalized",
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "taskId", "type": "bytes32" },
+      { "indexed": true, "name": "operator", "type": "address" },
+      { "indexed": false, "name": "reward", "type": "uint256" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "OperatorSlashed",
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "operator", "type": "address" },
+      { "indexed": false, "name": "amount", "type": "uint256" },
+      { "indexed": false, "name": "reason", "type": "string" }
+    ]
+  }
+]
