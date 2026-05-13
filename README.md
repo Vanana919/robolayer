@@ -28,11 +28,11 @@
 
 | | |
 |---|---|
-| **Contract** | `0x0000000000000000000000000000000000000000` *(pinned at launch)* |
+| **Contract** | `0x8260b4dd36D67f042cc8ce07DcCbA77D16545f65` |
 | **Network** | Ethereum (ERC-20) |
 | **Uniswap** | [app.uniswap.org](https://app.uniswap.org) — RDY/ETH pool |
-| **DexScreener** | [dexscreener.com/ethereum](https://dexscreener.com/ethereum) |
-| **Etherscan** | [etherscan.io](https://etherscan.io) |
+| **DexScreener** | [dexscreener.com/ethereum/0x8260b4dd36D67f042cc8ce07DcCbA77D16545f65](https://dexscreener.com/ethereum/0x8260b4dd36D67f042cc8ce07DcCbA77D16545f65) |
+| **Etherscan** | [etherscan.io/token/0x8260b4dd36D67f042cc8ce07DcCbA77D16545f65](https://etherscan.io/token/0x8260b4dd36D67f042cc8ce07DcCbA77D16545f65) |
 | **35M Locked** | Sablier vesting — team supply, on-chain proof |
 
 **Why locked?** Execution layers need operators with skin in the game, not exit liquidity. Team supply vests on-chain via Sablier — anyone can audit the stream. See [`docs/tokenomics.md`](docs/tokenomics.md) for the full allocation breakdown.
@@ -174,9 +174,9 @@ forge script script/Deploy.s.sol \
 
 | Network | Address |
 |---------|---------|
-| Sepolia | `0x0000000000000000000000000000000000000000` |
-| Base    | `0x0000000000000000000000000000000000000000` |
-| Mainnet | `0x0000000000000000000000000000000000000000` |
+| Sepolia | `0x8260b4dd36D67f042cc8ce07DcCbA77D16545f65` |
+| Base    | `0x8260b4dd36D67f042cc8ce07DcCbA77D16545f65` |
+| Mainnet | `0x8260b4dd36D67f042cc8ce07DcCbA77D16545f65` |
 
 > Mainnet contract is deployed but unverified — auditing in progress. Use Sepolia for integration testing.
 
