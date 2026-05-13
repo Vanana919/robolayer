@@ -14,7 +14,7 @@
 [![CI](https://github.com/robodynexyz/robodyne/actions/workflows/ci.yml/badge.svg)](https://github.com/robodynexyz/robodyne/actions/workflows/ci.yml)
 [![Stars](https://img.shields.io/github/stars/robodynexyz/robodyne?style=social)](https://github.com/robodynexyz/robodyne/stargazers)
 [![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](#)
-[![Twitter Follow](https://img.shields.io/badge/follow-%40robodynexyz-1DA1F2?logo=twitter&logoColor=white)](#)
+[![Twitter Follow](https://img.shields.io/badge/follow-%40robodyneeth-1DA1F2?logo=twitter&logoColor=white)](#)
 
 [Website](https://robodyne.xyz) · [Docs](docs/architecture.md) · [SDK](sdk/) · [Tokenomics](docs/tokenomics.md)
 
