@@ -11,8 +11,8 @@
 [![Foundry](https://img.shields.io/badge/Foundry-latest-orange)](https://book.getfoundry.sh)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![CI](https://github.com/robolayertech/robodyne/actions/workflows/ci.yml/badge.svg)](https://github.com/robolayertech/robodyne/actions/workflows/ci.yml)
-[![Stars](https://img.shields.io/github/stars/robolayertech/robodyne?style=social)](https://github.com/robolayertech/robodyne/stargazers)
+[![CI](https://github.com/robodynexyz/robodyne/actions/workflows/ci.yml/badge.svg)](https://github.com/robodynexyz/robodyne/actions/workflows/ci.yml)
+[![Stars](https://img.shields.io/github/stars/robodynexyz/robodyne?style=social)](https://github.com/robodynexyz/robodyne/stargazers)
 [![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](#)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40robodynexyz-1DA1F2?logo=twitter&logoColor=white)](#)
 
@@ -152,7 +152,7 @@ Full tokenomics: [docs/tokenomics.md](docs/tokenomics.md)
 # Prereqs: Foundry (forge/cast/anvil), Node 20+
 # Install Foundry: curl -L https://foundry.paradigm.xyz | bash && foundryup
 
-git clone https://github.com/robolayertech/robodyne.git
+git clone https://github.com/robodynexyz/robodyne.git
 cd robodyne
 
 # Install Solidity deps (OpenZeppelin, forge-std)

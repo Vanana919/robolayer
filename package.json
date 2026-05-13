@@ -4,11 +4,11 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/robolayertech/robodyne"
+    "url": "https://github.com/robodynexyz/robodyne"
   },
   "homepage": "https://robodyne.xyz",
   "bugs": {
-    "url": "https://github.com/robolayertech/robodyne/issues"
+    "url": "https://github.com/robodynexyz/robodyne/issues"
   },
   "license": "MIT",
   "scripts": {
